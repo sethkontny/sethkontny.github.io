@@ -1,0 +1,170 @@
+.animated {
+    -webkit-animation-fill-mode:both;
+       -moz-animation-fill-mode:both;
+         -o-animation-fill-mode:both;
+        -ms-animation-fill-mode:both;
+            animation-fill-mode:both;
+    -webkit-animation-duration:0.3s;
+       -moz-animation-duration:0.3s;
+         -o-animation-duration:0.3s;
+        -ms-animation-duration:0.3s;
+            animation-duration:0.3s;
+}
+
+@-webkit-keyframes spinText {
+    0% {
+        transform :rotateX(0deg);
+        margin-left :-450px;
+        text-shadow :rgb(255, 255, 255) 0px 0px 3px;
+    }
+    100% {
+        transform :rotateX(720deg);
+        margin-left :0px;
+    }
+}
+
+@-moz-keyframes spinText {
+    0% {
+        transform :rotateX(0deg);
+        margin-left :-450px;
+        text-shadow :rgb(255, 255, 255) 0px 0px 3px;
+    }
+    100% {
+        transform :rotateX(720deg);
+        margin-left :0px;
+    }
+}
+
+@-o-keyframes spinText {
+    0% {
+        transform :rotateX(0deg);
+        margin-left :-450px;
+        text-shadow :rgb(255, 255, 255) 0px 0px 3px;
+    }
+    100% {
+        transform :rotateX(720deg);
+        margin-left :0px;
+    }
+}
+
+@-ms-keyframes spinText {
+    0% {
+        transform :rotateX(0deg);
+        margin-left :-450px;
+        text-shadow :rgb(255, 255, 255) 0px 0px 3px;
+    }
+    100% {
+        transform :rotateX(720deg);
+        margin-left :0px;
+    }
+}
+
+@keyframes spinText{
+    0% {
+        transform :rotateX(0deg);
+        margin-left :-450px;
+        text-shadow :rgb(255, 255, 255) 0px 0px 3px;
+    }
+    100% {
+        transform :rotateX(720deg);
+        margin-left :0px;
+    }
+}
+
+.spinText {
+    -webkit-animation-name:spinText;
+       -moz-animation-name:spinText;
+         -o-animation-name:spinText;
+        -ms-animation-name:spinText;
+            animation-name:spinText;
+}
+
+@-webkit-keyframes spinText2 {
+    0% {
+        transform :rotateX(720deg);
+        margin-left :-400px;
+    }
+    100% {
+        transform :rotateX(0deg);
+        margin-left :0px;
+    }
+}
+
+@-moz-keyframes spinText2 {
+    0% {
+        transform :rotateX(720deg);
+        margin-left :-400px;
+    }
+    100% {
+        transform :rotateX(0deg);
+        margin-left :0px;
+    }
+}
+
+@-o-keyframes spinText2 {
+    0% {
+        transform :rotateX(720deg);
+        margin-left :-400px;
+    }
+    100% {
+        transform :rotateX(0deg);
+        margin-left :0px;
+    }
+}
+
+@-ms-keyframes spinText2 {
+    0% {
+        transform :rotateX(720deg);
+        margin-left :-400px;
+    }
+    100% {
+        transform :rotateX(0deg);
+        margin-left :0px;
+    }
+}
+
+@keyframes spinText2{
+    0% {
+        transform :rotateX(720deg);
+        margin-left :-400px;
+    }
+    100% {
+        transform :rotateX(0deg);
+        margin-left :0px;
+    }
+}
+
+.spinText2 {
+    -webkit-animation-name:spinText2;
+       -moz-animation-name:spinText2;
+         -o-animation-name:spinText2;
+        -ms-animation-name:spinText2;
+            animation-name:spinText2;
+}
+
+.fanimated {
+    cursor:pointer;
+}
+
+.fanimated span {
+    display:inline-block;
+    -webkit-transition:-webkit-transform 1s ease-in;
+       -moz-transition:-moz-transform 1s ease-in;
+         -o-transition:-o-transform 1s ease-in;
+        -ms-transition:-ms-transform 1s ease-in;
+            transition:transform 1s ease-in;
+}
+
+.fanimated:hover {
+    margin-bottom:-2px !important;
+    margin-left:-2px !important;
+}
+
+.fanimated:hover span {
+    -webkit-transform:rotateY(1440deg);
+       -moz-transform:rotateY(1440deg);
+         -o-transform:rotateY(1440deg);
+        -ms-transform:rotateY(1440deg);
+            transform:rotateY(1440deg);
+}
+
